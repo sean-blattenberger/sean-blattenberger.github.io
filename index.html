@@ -7,25 +7,15 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-
-
   <link rel="stylesheet" href="css/style.css">
-
-
-
-
 </head>
 
 <body>
 
-  <nav class="black" role="navigation">
+  <nav style="background: rgb(11, 11, 11);" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo center teal-text text-lighten-4 condensed thin">SEAN BLATTENBERGER</a>
       <!--<ul id="nav-mobile" class="side-nav">
@@ -40,9 +30,8 @@
       <div class="container">
         <br>
         <br>
-        <h1 class="header center"><i class="ion-social-html5-outline deep-orange-text"></i>&nbsp;<i class="ion-social-css3 cyan-text text-lighten-3"></i>&nbsp;
-          <i class="devicon-sass-original colored"></i>&nbsp;<i class="ion-social-javascript yellow-text text-darken-1"></i>&nbsp;
-          <i class="ion-social-angular red-text"></i>&nbsp;
+        <h1 class="header center"><i class="ion-social-html5-outline deep-orange-text"></i>&nbsp;<i class="ion-social-css3 cyan-text text-lighten-3"></i>
+          <i class="ion-social-javascript yellow-text text-darken-1"></i>
           <i class="ion-social-nodejs light-green-text text-accent-2"></i>&nbsp;<i class="devicon-react-original colored"></i></h1>
         <div class="row center">
           <h4 class="header col s12 teal-text text-lighten-5">web developer <br><i class="ion-plus-round"></i> student</h4>
@@ -57,7 +46,7 @@
 
       </div>
     </div>
-    <div class="parallax"><img class="parimage" src="https://docs.google.com/uc?id=0BxATlWLxD5-7ZV92VmlXMzhWdnM" width="85%" alt="Sean Blattenberger"></div>
+    <div class="parallax"><img class="parimage" src="./para-img-1.jpeg" width="85%" alt="Sean Blattenberger"></div>
   </div>
 
 
@@ -113,7 +102,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img class="parimage" src="https://docs.google.com/uc?id=0BxATlWLxD5-7RFI2TGNCNld6ckE" alt="Yo!" width="85%"></div>
+    <div class="parallax"><img class="parimage" src="./para-img-2.jpeg" alt="Yo!" width="85%"></div>
   </div>
 
   <div class="container" id="work">
@@ -128,6 +117,34 @@
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
+              <img class="workimage" src="tjprojdemo.png">
+              <span class="card-title cyan-text text-lighten-3">TripJournal</span>
+            </div>
+            <div class="card-content">
+              <p>TripJournal helps users keep record of their travels and was built using React, Styled Components, Nodejs, and Postgres</p>
+            </div>
+            <div class="card-action">
+              <a target="_blank" href="https://github.com/sean-blattenberger/trip-journal" >View on Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img class="workimage" src="capstones-img.png">
+              <span class="card-title cyan-text text-lighten-3">MenuSortr</span>
+            </div>
+            <div class="card-content">
+              <p>MenuSortr is a menu ranking app that was built with JavaScript, ReactJS, NodeJS, GraphQL, and MongoDB</p>
+            </div>
+            <div class="card-action">
+              <a target="_blank" href="https://github.com/sean-blattenberger/capstone-project" >View on Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
               <img class="workimage" src="cfac.png">
               <span class="card-title cyan-text text-lighten-3">Crawl for a cause</span>
             </div>
@@ -135,7 +152,7 @@
               <p>Website for a charity bar crawl using HTML, SASS, ES6, NodeJs, expressJS, MongoDB, Heroku and the Stripe API.</p>
             </div>
             <div class="card-action">
-              <a href="https://github.com/ejsusalla/cfac">View on Github</a>
+              <a target="_blank" href="https://www.crawlforacause.org/">View Site</a>
             </div>
           </div>
         </div>
@@ -149,7 +166,7 @@
               <p>Weather app for freecode camp challenge. WeatherApp was built using HTML, CSS, Angular, and weather & geo APIs.</p>
             </div>
             <div class="card-action">
-              <a href="https://sean-blattenberger.github.io/weatherapp">View on Github</a>
+              <a target="_blank" href="https://github.com/sean-blattenberger/react-weather-app">View on Github</a>
             </div>
           </div>
         </div>
@@ -163,12 +180,11 @@
               <p>Simple app to search top Wikipedia results using the Wikipedia API. Uses Angular and Materialize CSS for design.</p>
             </div>
             <div class="card-action">
-              <a href="#">View on Github</a>
+              <a target="_blank" href="https://codepen.io/sean-blattenberger/pen/mPEWNZ">View on Codepen</a>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
+
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
@@ -179,7 +195,7 @@
               <p>TextSwap is an textbook exchange implemented using HTML, CSS, AngularJS, NodeJS, expressJS, and MongoDB</p>
             </div>
             <div class="card-action">
-              <a href="https://github.com/sean-blattenberger/textswap">View on Github</a>
+              <a target="_blank" href="https://github.com/sean-blattenberger/textswap">View on Github</a>
             </div>
           </div>
         </div>
@@ -195,7 +211,7 @@
               </p>
             </div>
             <div class="card-action">
-              <a href="https://sean-blattenberger.github.io/markdown-app">View on Github</a>
+              <a target="_blank" href="https://sean-blattenberger.github.io/markdown-app">View on Github</a>
             </div>
           </div>
         </div>
@@ -209,7 +225,7 @@
               <p>Simple recipe app built with HTML/CSS, ReactJS, and deployed to Heroku. Uses localStorage to persist data.</p>
             </div>
             <div class="card-action">
-              <a href="https://recipe-app-sb.herokuapp.com">View on Heroku</a>
+              <a target="_blank" href="https://recipe-app-sb.herokuapp.com">View on Heroku</a>
             </div>
           </div>
         </div>
@@ -227,16 +243,16 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img class="parimage" src="https://docs.google.com/uc?id=0BxATlWLxD5-7TU1RSGRCMkkyajQ" alt="Thanks for visiting" width="85%"></div>
+    <div class="parallax"><img class="parimage" src="para-img-3.jpeg" alt="Thanks for visiting" width="85%"></div>
   </div>
 
-  <footer class="page-footer black">
+  <footer class="page-footer" style="background: rgb(11, 11, 11);">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
           <h5 class="cyan-text text-lighten-3">Contact info</h5>
           <div class="divider light-green accent-2"></div>
-          <p class="teal-text text-lighten-5">Sean Blattenberger<br>PGH, PENNA., 15201<br>G-Hangouts: sean.blattenberger<br>Skype: sean.blattenberger</p>
+          <p class="teal-text text-lighten-5">Sean Blattenberger<br>Denver, CO., 80216<br>Google: sean.blattenberger<br>Skype: sean.blattenberger</p>
 
 
         </div>

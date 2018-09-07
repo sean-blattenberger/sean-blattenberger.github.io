@@ -5,15 +5,18 @@
  *
  * Made By MaterializeCSS.com
  */
-
+nav {
+  background: rgb(11, 11, 11) !important;
+}
 .card {
   font-weight: 200;
-  max-height: 400px;
-  min-height: 400px;
+  /* max-height: 400px;
+  min-height: 400px; */
 }
 
+
 .section.bio {
-  background-color: black !important;
+  background-color: rgb(11, 11, 11) !important;
 }
 
 #download-button {
@@ -92,7 +95,7 @@ footer.page-footer {
 }
 
 body {
-  background: black;
+  background: rgb(11, 11, 11);
 }
 
 h5 {
